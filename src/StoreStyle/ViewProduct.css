@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.mnn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.prd{
+    margin-top: 20px;
+    display:flex;
+    background-color: rgba(128, 128, 128, 0.233);
+    border-radius: 10px;
+    height: 350px;
+    padding:50px;
+    width:700px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.detail{
+    margin:35px;
+    width:50%;
+}
+
+.detail button{
+    width:90px;
+    height:30px;
+    border-radius: 8px;
+    background-color: rgb(109, 25, 25);
+    color:white;
+}
+
+.imgs{
+    width:50%;
+    text-align: center;
+}
+.detail button:hover{
+    background-color: brown;
+    width:100px;
+    height:35px;
+}

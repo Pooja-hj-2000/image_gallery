@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.home{
+    width:100%;
+    height:700px;
+    background-image:url('https://www.jmmnews.com/wp-content/uploads/2019/07/store-aesthetics-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(100px);
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hm{
+    border-radius: 10px;
+    text-align: center;
+    height:250px;
+    background-color: rgba(128, 128, 128, 0.388);
+    width:60%;
+}
+.hm h1,h2{
+    margin-top: 25px;
+}

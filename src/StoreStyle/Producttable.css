@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.table{
+    padding-left:120px;
+    padding-right:120px;text-align: center;
+}
+
+.table button{
+    width:70px;
+    border:none;
+    height:30px;
+    border-radius: 8px;
+    background-color: rgb(109, 25, 25);
+    color:white;
+}
+
+.table button:hover{
+    background-color: brown;
+    width:80px;
+    height:35px;
+}
+
+#btn{
+     text-align: center;
+}
+
+#btn button{
+    width:30%;
+}

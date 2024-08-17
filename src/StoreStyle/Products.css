@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.mn{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product{
+    width:28%;
+    height:350px;
+    text-align: center;
+    /* background-color: aquamarine; */
+    border: solid 1px black;
+    margin:20px;
+}
+
+.product img{
+    margin-top: 15px;
+}
+
+.product button{
+    background-color: rgb(108, 22, 22);
+    color:white;
+    width:40%;
+    height:40px;
+    border:none;
+    border-radius: 10px;
+}
+
+.product:hover{
+    width:30%;
+    height:360px;
+    background-color: black;
+    color:white;
+}
+
+.product button:hover{
+    width: 45%;
+    height:45px;
+    background-color: brown;
+}

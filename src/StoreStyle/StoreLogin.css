@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 740px;
+}
+.log{
+    margin-top: 20px;
+    height:350px;
+    width:35%;
+    background-color: rgba(0, 0, 0, 0.091);
+}
+
+.log input[type="email"],
+.log input[type="password"]{
+    height:40px;
+    width:60%;
+    border: none;
+    border-radius: 6px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.log button{
+    height:40px;
+    width:60%;
+    background-color: rgba(123, 3, 5, 0.728);
+    color:white;
+    border-radius:6px ;
+    border: none;
+}
+
+.log button:hover{
+    background-color: rgb(204, 67, 67);
+}
